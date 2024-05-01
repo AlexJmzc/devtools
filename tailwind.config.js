@@ -13,6 +13,10 @@ module.exports = {
         tertiary: "#0EF6CC",
         quaternary: "#F4FEFD",
       },
+
+      boxShadow: {
+        card: '0 0 0 9px rgb(255 255 255 / 15%)'
+      }
     },
   },
   plugins: [addDynamicIconSelectors()],

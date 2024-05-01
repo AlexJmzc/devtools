@@ -4,7 +4,7 @@ import CreatorCard from './creator_card';
 
 const Creators = () => {
   return (
-    <div className='bg-secondary grid grid-cols-2'>
+    <div className='bg-secondary grid grid-cols-2 justify-items-center h-screen'>
         {CreatorsData.map((creator) => 
             <CreatorCard creator={creator}/>
         )}
