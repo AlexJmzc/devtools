@@ -4,8 +4,7 @@ import "tailwindcss/tailwind.css";
 
 function App() {
   return (
-    <>
-      
+    <> 
       <Main />
     </>
   );
