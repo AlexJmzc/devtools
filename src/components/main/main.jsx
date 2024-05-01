@@ -1,9 +1,15 @@
 import React from "react";
-import Container from "../container/container";
+import Header from "../header/header";
+import InfoContainer from "../information/info_container";
+import CreatorsContainer from "../creators/creators_container";
 
 const Main = () => {
   return (
-    <Container/>
+    <>
+      <Header />
+
+      <CreatorsContainer />
+    </>
   );
 };
 
