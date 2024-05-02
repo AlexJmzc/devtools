@@ -3,7 +3,6 @@ import React from 'react';
 const CreatorCard = ({creator}) => {
 
   const redirect = (url) => {
-    console.log(url);
     window.location.href = url;
   }
 
