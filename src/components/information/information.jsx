@@ -2,7 +2,7 @@ import React from 'react';
 
 const Information = () => {
     const gitRedirect = () => {
-        console.log("re")
+        window.location.href("https://github.com/AlexJmzc/devtools");
     }
 
   return (
