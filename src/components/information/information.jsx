@@ -6,7 +6,7 @@ const Information = () => {
     }
 
   return (
-    <div className='flex gap-x-4 items-center w-screen bg-quaternary mt-16'>
+    <div className='flex gap-x-4 items-center w-screen bg-quaternary'>
         <p className='ml-10 w-3/5 text-lg text-justify bg-tertiary rounded-2xl p-6'>
             ¡Bienvenido a esta plataforma de herramientas para programadores!
             <br /><br />
@@ -17,7 +17,7 @@ const Information = () => {
             <br /><br />
             Siéntete libre de contribuir con este proyecto a través del repositorio de GitHub.
         </p>
-        <div className='flex flex-col w-2/5 justify-center items-center'>
+        <div className='flex flex-col w-2/5 justify-center items-center mt-14'>
             <img
                 className='h-60 w-80 rounded-3xl' 
                 src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2019/05/programacion-kotlin.jpg?tf=3840x" 
