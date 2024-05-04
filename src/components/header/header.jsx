@@ -18,7 +18,7 @@ const Header = () => {
         <ul className="flex gap-x-6">
           <li className="flex items-center gap-x-1 cursor-pointer" onClick={() => redirect("/colors")}>
             <span className="icon-[carbon--color-palette]"></span>
-            <a href="/color">Paletas de colores</a>
+            <a href="/colors">Paletas de colores</a>
           </li>
           <li className="flex items-center gap-x-1 cursor-pointer" onClick={() => redirect("/fonts")}>
             <span className="icon-[ph--pen-nib-duotone]"></span>

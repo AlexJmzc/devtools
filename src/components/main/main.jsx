@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "../header/header";
 import InfoContainer from "../information/info_container";
-import Creators from "../creators/creators";
+import ColorsContainer from "../colors_palettes/colors_container";
+import CreatorsContainer from "../creators/creators_container";
+
 
 const Main = () => {
 
@@ -12,7 +14,8 @@ const Main = () => {
       <Router>
           <Routes>
             <Route path="/" element={<InfoContainer/>} />
-            <Route path="/creators" element={<Creators/>} />
+            <Route path="/colors" element={<ColorsContainer />} />
+            <Route path="/creators" element={<CreatorsContainer />} />
           </Routes>
       </Router>
     </>
